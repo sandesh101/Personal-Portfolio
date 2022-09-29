@@ -83,4 +83,11 @@ body{
     padding: 15px;
     border: 2px solid var(--Accent-Color);
     border-radius: 7px;
+    transition: 0.2s ease-in;
+}
+
+.card-body-style:hover{
+    /* background-color: var(--Accent-Color); */
+    transform: scale(1.1);
+    box-shadow: 3px 5px 10px 8px #000000;
 }
