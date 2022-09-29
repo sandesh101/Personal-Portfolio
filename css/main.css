@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 /*
 
@@ -16,8 +16,8 @@
 }
 
 body{
-    background: rgb(224, 224, 224);
-    font-family: 'Maven Pro';
+    background: #DDDDDD !important;
+    font-family: 'Poppins' !important;
 }
 
 .container {
