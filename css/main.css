@@ -42,6 +42,10 @@ body{
     margin-top: 140px;
 }
 
+#works{
+    margin-top: 200px;
+}
+
 .item-text{
     font-weight: bold !important;
     transition: 0.2s ease-in-out !important;
@@ -63,6 +67,7 @@ body{
     border-radius: 7px;
     padding: 10px;
     font-weight: bold;
+    text-decoration: none;
     color: var(--Primary-Color);
     transition: 0.2s ease-in;
 }
@@ -71,4 +76,11 @@ body{
     background-color: var(--Primary-Color) !important;
     border: 1px solid var(--Accent-Color);
     color: var(--Accent-Color);
+}
+
+.card-body-style{
+    background-color: var(--Secondary-Color);
+    padding: 15px;
+    border: 2px solid var(--Accent-Color);
+    border-radius: 7px;
 }
