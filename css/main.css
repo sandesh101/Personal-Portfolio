@@ -1,22 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-/*
 
---> Primary Color: #DDDDDD
---> Secondary Color: #F9F3F3
---> Accent Color: #F25287 
+:root{
+--Primary-Color: #022C43;
+--Secondary-Color: #115173;
+--Accent-Color: #FFD700; 
+--Text-Color: #FFFFFF;
+}
 
-*/
 
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: var(--Text-Color);
 }
 
 body{
-    background: #DDDDDD !important;
+    background: var(--Primary-Color) !important;
     font-family: 'Poppins' !important;
 }
 
@@ -29,8 +31,17 @@ body{
 }
 
 #accent-color{
-    color: #F25287;
+    color: var(--Accent-Color);
 }
+
+#about{
+    margin-top: 140px;
+}
+
+#aboutme h4{
+    margin-top: 140px;
+}
+
 
 .item-text{
     font-weight: bold !important;
@@ -38,7 +49,7 @@ body{
 }
 
 .item-text:hover{
-    color: #F25287 !important;
+    color: var(--Accent-Color) !important;
 }
 
 
@@ -46,3 +57,12 @@ body{
     height: 400px;
     width: auto;
 }
+
+.button{
+    background-color: var(--Accent-Color) !important;
+    border: 1px solid var(--Accent-Color) !important;
+    border-radius: 7px;
+    padding: 10px;
+    font-weight: bold;
+}
+
