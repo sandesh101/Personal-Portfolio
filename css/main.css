@@ -20,6 +20,18 @@ body{
     font-family: 'Poppins' !important;
 }
 
+#intro{
+    font-weight: bold;
+}
+
+.hello{
+    margin-right: 142px;
+}
+
+#accent-color{
+    color: #F25287;
+}
+
 .item-text{
     font-weight: bold !important;
     transition: 0.2s ease-in-out !important;
@@ -27,4 +39,10 @@ body{
 
 .item-text:hover{
     color: #F25287 !important;
+}
+
+
+.profile-image{
+    height: 400px;
+    width: auto;
 }
