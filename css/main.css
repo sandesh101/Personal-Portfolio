@@ -20,29 +20,11 @@ body{
     font-family: 'Poppins' !important;
 }
 
-.container {
-    display: flex;
+.item-text{
+    font-weight: bold !important;
+    transition: 0.2s ease-in-out !important;
 }
 
-.text{
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    border: 1px solid black;
-    border-radius: 10px;
-    height: 70px;
-    padding: 20px;
-    transition: 0.3s ease-out;
-    text-align: center;
-}
-
-.text:hover{
-    background-color: black;
-    color: white;
-}
-
-.image{
-    position: absolute;
-    top: 20%;
-    left: 10%;
+.item-text:hover{
+    color: #F25287 !important;
 }
