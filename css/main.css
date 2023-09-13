@@ -2,10 +2,10 @@
 
 
 :root{
---Primary-Color: #022C43;
---Secondary-Color: #115173;
---Accent-Color: #FFD700; 
---Text-Color: #FFFFFF;
+--Primary-Color: #000814;
+--Secondary-Color: #c23530;
+--Accent-Color: #c23530; 
+--Text-Color: #ede7f1;
 }
 
 
@@ -22,72 +22,9 @@ body{
     font-family: 'Poppins' !important;
 }
 
-#intro{
-    font-weight: bold;
+.text{
+    position: absolute;
+    top: 75%;
+    left: 33%;
 }
 
-.hello{
-    margin-right: 142px;
-}
-
-#accent-color{
-    color: var(--Accent-Color);
-}
-
-#about{
-    margin-top: 140px;
-}
-
-#aboutme h4{
-    margin-top: 140px;
-}
-
-#works{
-    margin-top: 200px;
-}
-
-.item-text{
-    font-weight: bold !important;
-    transition: 0.2s ease-in-out !important;
-}
-
-.item-text:hover{
-    color: var(--Accent-Color) !important;
-}
-
-
-.profile-image{
-    height: 400px;
-    width: auto;
-}
-
-.button{
-    background-color: var(--Accent-Color) !important;
-    border: 1px solid var(--Accent-Color) !important;
-    border-radius: 7px;
-    padding: 10px;
-    font-weight: bold;
-    text-decoration: none;
-    color: var(--Primary-Color);
-    transition: 0.2s ease-in;
-}
-
-.button:hover{
-    background-color: var(--Primary-Color) !important;
-    border: 1px solid var(--Accent-Color);
-    color: var(--Accent-Color);
-}
-
-.card-body-style{
-    background-color: var(--Secondary-Color);
-    padding: 15px;
-    border: 2px solid var(--Accent-Color);
-    border-radius: 7px;
-    transition: 0.2s ease-in;
-}
-
-.card-body-style:hover{
-    /* background-color: var(--Accent-Color); */
-    transform: scale(1.1);
-    box-shadow: 3px 5px 10px 8px #000000;
-}
