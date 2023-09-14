@@ -2,29 +2,89 @@
 
 
 :root{
---Primary-Color: #000814;
---Secondary-Color: #c23530;
---Accent-Color: #c23530; 
---Text-Color: #ede7f1;
+--Primary-Color: #E9E9E9;
+--Secondary-Color: #161517;
+--Accent-Color: #F45050; 
 }
-
-
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: var(--Text-Color);
 }
 
 body{
     background: var(--Primary-Color) !important;
     font-family: 'Poppins' !important;
+    color: var(--Secondary-Color);
 }
 
-.text{
+#main{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* nav */
+#home_page{
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+nav>*{
+    padding-top: 20px;
+}
+
+nav a{
+    margin-left: 80px;
+    font-weight: 800;
+    color: var(--Secondary-Color);
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--Secondary-Color);
+    font-weight: 600;
+    position: relative;
+    transition: 0.3s ease-in;
+}
+
+nav ul li a::after{
+    content: "";
     position: absolute;
-    top: 75%;
-    left: 33%;
+    top: 25px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: var(--Accent-Color);
+    transition: 0.3s ease-in;
 }
 
+
+nav ul li a:hover{
+    color: var(--Accent-Color);
+}
+
+nav ul li a:hover::after{
+    width: 100%; 
+}
+/* nav */
