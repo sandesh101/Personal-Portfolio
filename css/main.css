@@ -200,12 +200,13 @@ span{
 
 #about_me{
     position: relative;
-    width: 30%;
+    width: 40%;
     top: 40%;
     left: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: 600;
+    font-size: 20px;
 }
 /* second-page */
