@@ -101,16 +101,6 @@ nav ul li a:hover::after{
 }
 /* nav */
 
-/* sidebar */
-#sidebar{
-    height: 88vh;
-    width: 25%;
-    position: relative;
-    left: 75%;
-    background-color: var(--Accent-Color);
-    z-index: -10;
-}
-/* sidebar */
 
 #image{
     position: absolute;
@@ -134,6 +124,8 @@ nav ul li a:hover::after{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    left: 10%;
 }
 
 #info h1{
@@ -146,6 +138,29 @@ nav ul li a:hover::after{
 
 span{
     color: var(--Accent-Color);
+}
+
+#social_links{
+    display: flex;
+}
+.social_media{
+    position: relative;
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid var(--Accent-Color);
+    border-radius: 50%;
+}
+
+.social_media a{
+    text-decoration: none;
+    color: var(--Secondary-Color);
+}
+
+.social_media a i{
+    position: relative;
+    top: -30%;
+    font-size: 40px;
 }
 
 
