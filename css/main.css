@@ -14,6 +14,22 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 40px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--Accent-Color);  
+    border-radius: 40px;
+  }
+
 body{
     background: var(--Primary-Color) !important;
     font-family: 'Poppins' !important;
@@ -49,7 +65,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    width: 100%;
 }
 
 nav>*{
@@ -198,6 +214,7 @@ span{
     z-index: 1;
 }
 
+
 #about_me{
     position: relative;
     width: 40%;
@@ -210,3 +227,16 @@ span{
     font-size: 20px;
 }
 /* second-page */
+
+/* work */
+#work{
+    height: 100vh;
+}
+ #work h5{
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    text-decoration: underline;
+ }
+/* work */
