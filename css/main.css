@@ -182,11 +182,11 @@ span{
 
 
 /* second-page */
-#second_page{
+#about_page{
     height: 100vh;
 }
 
-#second_page>h5{
+#about_page>h5{
     font-weight: 800;
     font-size: 40px;
     display: flex;
@@ -288,7 +288,17 @@ span.bold{
  .description ul{
     line-height: 40px;
  }
-
-
-
 /* work */
+
+/* project */
+#projects{
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+#projects h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* project */
