@@ -231,6 +231,8 @@ span{
 /* work */
 #work{
     height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
 }
  #work h5{
     font-weight: 800;
@@ -239,4 +241,54 @@ span{
     font-size: 40px;
     text-decoration: underline;
  }
+ 
+ #professional{
+    display: flex;
+    flex-wrap: wrap;
+    height: 85%;
+    justify-content: space-around;
+    overflow-y: hidden;
+ }
+
+ #professional ul li{
+    list-style-type: circle;
+ }
+
+span.bold{
+    font-weight: bold;
+}
+
+ .experiences{
+    position: relative;
+    border: 1px solid var(--Secondary-Color);
+    border-radius: 10px;
+    padding: 10px;
+    height: 45%;
+    width: 45%;
+ }
+ #teaching_experiences{
+    height: 50% !important;
+ }
+
+ .position{
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+ }
+ .company{
+    position: relative;
+    left: 5%;
+    font-weight: bold;
+ }
+ .duration{
+    position: relative;
+    left: 5%;
+    font-weight: bold;
+ }
+ .description ul{
+    line-height: 40px;
+ }
+
+
+
 /* work */
